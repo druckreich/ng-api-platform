@@ -1,8 +1,8 @@
 {
   "name": "ng2-api-platform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/druckreich/ng2-api-platform.git"
   },
-  "author": "",
+  "author": "stefan.martinek@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/druckreich/ng2-api-platform/issues"
