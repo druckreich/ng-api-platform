@@ -15,5 +15,3 @@ export class HydraCollection extends HydraMember {
     view: HydraView;
 
 }
-
-

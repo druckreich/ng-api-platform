@@ -1,13 +1,8 @@
 import { JsonObject, JsonMember, TypedJSON } from 'typedjson-npm/src/typed-json';
+import { HydraMember } from './hydra.member';
 
 @JsonObject
-export class HydraView {
-
-    @JsonMember({ name: '@id' })
-    id: string;
-
-    @JsonMember({ name: '@type' })
-    type: string;
+export class HydraView extends HydraMember {
 
     @JsonMember({ name: 'hydra:first' })
     first: string;
@@ -17,4 +12,5 @@ export class HydraView {
 
     @JsonMember({ name: 'hydra:next' })
     next: string;
+
 }
