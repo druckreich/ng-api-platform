@@ -1,3 +1,3 @@
-export * from './hydra/hydra.member';
-export * from './hydra/hydra.collection';
-export * from './hydra/hydra.view';
+export { HydraView } from './src/hydra/hydra.view';
+export { HydraCollection } from './src/hydra/hydra.collection';
+export { HydraMember } from './src/hydra/hydra.member';
