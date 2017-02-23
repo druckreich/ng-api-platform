@@ -1,0 +1,22 @@
+{
+  "name": "ng2-api-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druckreich/ng2-api-platform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/druckreich/ng2-api-platform/issues"
+  },
+  "homepage": "https://github.com/druckreich/ng2-api-platform#readme",
+  "dependencies": {
+    "typedjson-npm": "^0.1.6"
+  }
+}
