@@ -4,10 +4,7 @@
   "description": "predefined classes for api-platform mapping, based on typedjson-npm",
   "main": "src/index.js",
   "scripts": {
-    "preinstall": "npm install autodts",
-    "postinstall": "autodts link",
-    "prepublish": "tsc && autodts generate",
-    "test": "node test/test.js"
+    "prepublish": "tsc && cat *.d.ts > index.d.ts"
   },
   "repository": {
     "type": "git",
@@ -20,6 +17,6 @@
   },
   "homepage": "https://github.com/druckreich/ng2-api-platform#readme",
   "dependencies": {
-    "typedjson-npm": "0.1.6"
+    "typedjson-npm": "^0.1.6"
   }
 }

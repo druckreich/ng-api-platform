@@ -1,11 +1,11 @@
 {
 	"compilerOptions": {
-		"declaration": true,
 		"module": "commonjs",
 		"target": "es5",
 		"noImplicitAny": true,
 		"outDir": "dist",
         "experimentalDecorators": true,
+		"declaration": true,
 		"declarationDir": "./"
 	},
 	"files": [
