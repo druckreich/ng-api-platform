@@ -1,10 +1,10 @@
 {
   "name": "ng2-api-platform",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "predefined classes for api-platform mapping, based on typedjson-npm",
   "main": "src/index.js",
   "scripts": {
-    "prepublish": "tsc && cat *.d.ts > index.d.ts"
+    
   },
   "repository": {
     "type": "git",
