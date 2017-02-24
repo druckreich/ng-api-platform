@@ -5,7 +5,8 @@
 		"target": "es5",
 		"noImplicitAny": true,
 		"outDir": "dist",
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+		"declarationDir": "./"
 	},
 	"files": [
 		"src/index.ts"
