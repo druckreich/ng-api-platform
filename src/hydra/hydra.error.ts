@@ -10,7 +10,4 @@ export class HydraError extends HydraMember {
     @JsonMember({ name: "hydra:description" })
     description: string;
 
-    @JsonMember({ elements: String })
-    trace:string[];
-
 }
