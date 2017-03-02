@@ -20,6 +20,10 @@ export class HydraMember {
         }
     }
 
+    isReal(): boolean {
+        return !this.isNew();
+    }
+
     isNew(): boolean {
         return <boolean> (this.rawId == null);
     }
