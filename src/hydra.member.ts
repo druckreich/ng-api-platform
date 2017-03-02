@@ -3,7 +3,7 @@ import { TypedJSON, JsonMember, JsonObject } from 'typedjson-npm/src/typed-json'
 @JsonObject
 export class HydraMember {
     
-    @JsonMember({ name: "@id", type: String })
+    @JsonMember({ name: "@id" })
     rawId: string;
 
     @JsonMember({ name: "@context" })
