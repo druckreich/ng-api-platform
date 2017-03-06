@@ -29,6 +29,10 @@ export class HydraMember {
     }
 
     static parseFromTypedJSON(jsonString: string, type:any) {
-        return TypedJSON.parse(jsonString, type);
+        try {
+            return TypedJSON.parse(jsonString, type);
+        } catch(e) {
+            console.error(e);
+        }
     }
 }
