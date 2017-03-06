@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
+        "outDir": "dist",
         "declaration": true,
+        "declarationDir": "./dist",
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": true,
         "experimentalDecorators": true,
-	"emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true
     },
     "files": [
         "./src/index.ts"
