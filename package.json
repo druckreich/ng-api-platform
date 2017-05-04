@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/druckreich/ng2-api-platform.git"
+    "url": "git+https://github.com/druckreich/ngx-api-platform.git"
   },
   "author": "stefan.martinek@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/druckreich/ng2-api-platform/issues"
+    "url": "https://github.com/druckreich/ngx-api-platform/issues"
   },
-  "homepage": "https://github.com/druckreich/ng2-api-platform#readme",
+  "homepage": "https://github.com/druckreich/ngx-api-platform#readme",
   "dependencies": {
     "typedjson-npm": "^0.1.6"
   }
